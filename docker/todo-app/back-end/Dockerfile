@@ -1,5 +1,4 @@
-# COLOCAR IMAGEM BASE
-FROM node:14 AS todobackend
+FROM node:14-alpine AS todobackend
 
 WORKDIR /app
 
